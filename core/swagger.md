@@ -286,6 +286,7 @@ resources:
           parameters:
             -
                in: body
+               name: body
                schema:
                    type: object
                    properties:
@@ -320,6 +321,7 @@ or with XML:
                     <attribute name="parameters">
                         <attribute>
                             <attribute name="in">body</attribute>
+                            <attribute name="name">body</attribute>
                             <attribute name="schema">
                                 <attribute name="type">object</attribute>
                                 <attribute name="properties">
